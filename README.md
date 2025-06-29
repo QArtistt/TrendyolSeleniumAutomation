@@ -1,29 +1,34 @@
-Trendyol Automation Project
+#Trendyol Automation Project
+
 This project is developed to perform automation tests on the Trendyol website using Selenium and Cucumber.
 
-Technologies
+##Technologies
+
 Java 11
 The primary programming language used.
 
-Selenium WebDriver
+##Selenium WebDriver
+
 For web browser automation.
 
-Cucumber BDD Framework
+##Cucumber BDD Framework
+
 For Behavior-Driven Development (BDD) and writing human-readable test scenarios.
 
-Maven
+##Maven
+
 For project and dependency management.
 
-Apache POI
-(Optional) For reading/writing data from Excel files, if applicable.
+##maven-cucumber-reporting
 
-maven-cucumber-reporting
 For generating comprehensive HTML reports from Cucumber test results.
 
-Getting Started
+#Getting Started
+
 Follow these steps to set up and run the project locally.
 
-Prerequisites
+#Prerequisites
+
 Java Development Kit (JDK) 11 or higher:
 
 Ensure JDK 11 or a newer version is installed on your system.
@@ -40,12 +45,13 @@ Install the web browser(s) you intend to use for testing (e.g., Chrome, Firefox)
 
 Download the corresponding browser driver (e.g., chromedriver for Chrome) and either add it to your system's PATH or specify its location in your WebDriver initialization code.
 
-Installation
+##Installation
+
 Clone the Repository:
 
 git clone https://github.com/QArtistt/TrendyolSeleniumAutomation.git
 
-Navigate to Project Directory:
+##Navigate to Project Directory:
 
 cd TrendyolSeleniumAutomation
 
@@ -53,12 +59,14 @@ Install Dependencies:
 
 mvn clean install
 
-Running Tests
+##Running Tests
+
 To execute the automation tests, use the Maven verify phase. This will run the configured test runners (e.g., CooksRunner.java) via maven-surefire-plugin.
 
 mvn clean verify
 
 Test Reports
+
 Upon completion of the tests, detailed HTML reports will be generated at:
 
 target/cucumber-html-reports/index.html
